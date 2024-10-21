@@ -40,7 +40,7 @@ public class ImageHandling {
 	
 	private static void writeToFile(BufferedImage image) {
 		try {
-			File output = new File("/Users/Yudzilla/Desktop/output.png");
+			File output = new File("/Users/Example/Desktop/output.png");
 			
 			ImageIO.write(image, "png", output);
 			
