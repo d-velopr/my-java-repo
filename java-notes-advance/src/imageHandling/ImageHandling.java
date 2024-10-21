@@ -23,7 +23,7 @@ public class ImageHandling {
 		
 		try {
 			
-			File sampleFile = new File("/Users/Yudzilla/Pictures/ImageIcons/football.png");
+			File sampleFile = new File("/Users/Example/Pictures/ImageIcons/football.png");
 			
 			image = new BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB);
 			
