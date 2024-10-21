@@ -14,9 +14,9 @@ public class ByteStream {
 		
 		try {
 			// Reading file to this program
-			input = new FileInputStream("/Users/Yudzilla/Documents/test.txt"); 
+			input = new FileInputStream("/Users/Example/Documents/test.txt"); 
 			// Writing to the destination file from this program
-			output = new FileOutputStream("/Users/Yudzilla/Documents/xtest.txt");
+			output = new FileOutputStream("/Users/Example/Documents/xtest.txt");
 			
 			// Read the bytes; one byte at a time, byte by byte. Using a while loop.
 			// Java determines there are no more bytes to read by returning -1.
