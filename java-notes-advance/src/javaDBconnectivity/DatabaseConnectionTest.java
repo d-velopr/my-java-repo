@@ -11,9 +11,9 @@ public class DatabaseConnectionTest {
     public static void main(String[] args) {
     	
     	// Declare Connection Configurations
-        String jdbcUrl = "jdbc:postgresql://localhost:3784/Steaksta";
-        String username = "scvndy";
-        String password = "Tornado123$";
+        String jdbcUrl = "jdbc:postgresql://localhost:8484/Example";
+        String username = "username";
+        String password = "password";
 
         try {
         	
