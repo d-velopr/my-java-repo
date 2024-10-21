@@ -9,7 +9,7 @@ public class Networking {
 
 	public static void main(String[] args) throws UnknownHostException {
 
-		String url = "www.steaksta.com";
+		String url = "www.example.com";
 		
 		InetAddress inetAddress = Inet4Address.getByName(url);
 		
