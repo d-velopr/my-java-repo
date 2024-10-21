@@ -17,8 +17,8 @@ public class CharacterStreamEx {
 		FileWriter writer = null;
 		
 		try {
-			reader = new FileReader("/Users/Yudzilla/Documents/test.txt");
-			writer = new FileWriter("/Users/Yudzilla/Documents/xtest.txt");
+			reader = new FileReader("/Users/Example/Documents/test.txt");
+			writer = new FileWriter("/Users/Example/Documents/xtest.txt");
 			
 			int content;
 			while((content = reader.read()) != -1) {
