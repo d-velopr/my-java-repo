@@ -27,7 +27,7 @@ public class serAndDser {
 		employee Employee1 = new employee("John", 25, "John@Steaksta.com", 1);
 		
 		// This will store the file to the set path
-		String fileName = "/Users/Yudzilla/Documents/Employees.java";
+		String fileName = "/Users/Example/Documents/Employees.java";
 		FileOutputStream fileOut = null; // Declare for writing to the file
 		ObjectOutputStream objectOut = null; // Declare for creating object for file
 		
