@@ -9,9 +9,9 @@ public class JDBC {
 
 	public static void main(String[] args) throws SQLException {
 		// Declare connection configurations
-		String jdbcURL = "jdbc:postgresql://localhost:3784/Steaksta";
-		String username = "scvndy";
-        String password = "Tornado123$";
+		String jdbcURL = "jdbc:postgresql://localhost:8484/Example";
+		String username = "username";
+        String password = "password";
 		Connection connection = null;
 		
 		// SQL STATEMENT --------------------------------------
