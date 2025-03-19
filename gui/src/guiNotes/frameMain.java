@@ -15,7 +15,7 @@ public class frameMain {
   		// JFrame = a GUI Object window to add components too.		
 		JFrame frame = new JFrame(); //Creates the Frame
 //		frame.setVisible(true); //Makes the Frame Visible (MUST ADD AT END OF CODE!)
-		frame.setTitle("Andy's Gui"); //Sets Title of the Frame
+		frame.setTitle("Dvelupr's Gui"); //Sets Title of the Frame
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Makes exit button, exit
 		frame.setResizable(true); //Allows or Restricts Frame from being resized
 //		frame.setSize(780,420); //Sets the x & y Dimensions of the frame (MUST ADD AT END OF CODE!)
