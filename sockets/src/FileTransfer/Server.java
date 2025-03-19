@@ -56,7 +56,7 @@ public class Server {
 		frame.setVisible(true);
 		
 		@SuppressWarnings("resource")
-		ServerSocket ss = new ServerSocket(3784);
+		ServerSocket ss = new ServerSocket(port#);
 		
 		while(true) {
 			try {
