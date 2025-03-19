@@ -14,7 +14,7 @@ public class label{
 	public static void main(String[] args) {	 
 		JFrame frame = new JFrame();
 		JPanel panel = new JPanel();
-		frame.setTitle("Andy's Label Gui");
+		frame.setTitle("Dvelupr's Label Gui");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(true);
 		frame.getContentPane().setBackground(new Color(255,255,255)); 	 	
