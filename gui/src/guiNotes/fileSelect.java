@@ -32,7 +32,7 @@ public class fileSelect extends JFrame implements ActionListener{
 			 
 		 JFileChooser fileChooser = new JFileChooser(); // Declares the JFileChooser API
 		 
-		 fileChooser.setCurrentDirectory(new File("/Users/Yudzilla/Desktop")); // Sets a Default Path for fileChooser API
+		 fileChooser.setCurrentDirectory(new File("/Users/#/Desktop")); // Sets a Default Path for fileChooser API
 		 
 		 // .showOpenDialog = Attempts to open a selected file		
 		 int response = fileChooser.showOpenDialog(null);
