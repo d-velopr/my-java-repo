@@ -32,7 +32,7 @@ public class buttonWork extends JFrame{
 		button.setBorder(BorderFactory.createEtchedBorder());
 //		button.setEnabled(false); // Disable Button
 		
-		this.setTitle("Andy's Button"); //Sets Title of the this(frame)
+		this.setTitle("Dvelupr's Button"); //Sets Title of the this(frame)
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Makes exit button, exit
 		this.setResizable(true); //Allows or Restricts the frame from being resized
 		this.getContentPane().setBackground(new Color(255,255,255)); //Change Background Color (RGB 0-255)
