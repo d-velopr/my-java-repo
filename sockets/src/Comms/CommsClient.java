@@ -19,7 +19,7 @@ public class CommsClient {
 		BufferedWriter bufferedWriter = null;
 		
 		try {
-			socket = new Socket("192.168.1.177", 3785);
+			socket = new Socket("192.168.1.###", Port#);
 			
 			inputStreamReader = new InputStreamReader(socket.getInputStream());
 			outputStreamWriter = new OutputStreamWriter(socket.getOutputStream());
