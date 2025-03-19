@@ -16,7 +16,7 @@ public class frame extends JFrame{
 		
 				// JFrame = a GUI Object window to add components to
 			
-				this.setTitle("Andys Gui"); //Sets Title of the this
+				this.setTitle("Dvelupr's Gui"); //Sets Title of the this
 				this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Makes exit button, exit
 				this.setResizable(true); //Allows or Restricts the frame from being resized
 				this.setSize(780,420); //Sets the x & y Dimensions of the this (MUST ADD LAST!)
