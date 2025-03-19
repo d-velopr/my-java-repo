@@ -10,7 +10,7 @@ public class Server {
     public static void main(String[] args) {
         try {
             System.out.println("Waiting for client..."); // Display that the server is up and running
-            ServerSocket ss = new ServerSocket(9806); // Establish the ability to connect to the server
+            ServerSocket ss = new ServerSocket(port#); // Establish the ability to connect to the server
             Socket soc = ss.accept(); // .accept returns a socket object that enables communication 
             System.out.println("Connection Established"); // Display once the connection is made
 
